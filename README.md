@@ -28,7 +28,7 @@
 </h2>
 <ul>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#-status">Status</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">Layout</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">Demonstration</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-running-locally">Running Locally</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Technologies</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Author</a></li>
@@ -42,10 +42,10 @@
 
 
 
-<h2>🎨 Layout</h2>
+<h2>🖥️ Demonstration</h2>
 <h3>Web</h3>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/tgmarinho/Ecoleta/65fa69a3e1fe1c02008fcee6efc34ebe2cf5a1da/assets/web.svg" alt="Ecoleta Web" />
+    <img src="" alt="Ecoleta Web" />
   </p></br>
 
 <h3>Mobile</h3>
@@ -61,11 +61,12 @@
 <ol>
   <li><strong>Installing Git:</strong> You need to have Git on your machine to perform a few steps. To download Git, click <a href="https://git-scm.com/downloads">here.</a></li></br>
   <li><strong>Installing Node:</strong> To run the server you will need Node.js, to download it, click <a href="https://nodejs.org/en/">here.</a></strong></li></br>
+  <li><strong>Installing Expo:</strong> To run the mobile, you need to install the Expo, click <a href="https://docs.expo.io/get-started/installation/">here.</a></li></br>
   <li><strong>Installing Yarn 1:</strong> Yarn is a package manager that you can download directly from the website by clicking <a href="https://classic.yarnpkg.com/en/docs/install#windows-stable">here.</a> If you prefer, use the NPM.</li></br>
   <li><strong>Code Editor (optional):</strong> Make sure you have a code editor of your choice. I recommend using the VS Code. If you need to, download it <a href="https://code.visualstudio.com/Download">here.</a></li>
 </ol></br>
 
-<h3>Running the server backend</h3>
+<h3>🎲 Running the backend server</h3>
 <ol>
   <li>In a terminal, clone this repository:
     <p><code>git clone https://github.com/Silvio-Ronaldo/Ecoleta.git</code></p>
@@ -79,6 +80,10 @@
   <li>Install all dependencies:
     <p><code>yarn install</code> or <code>yarn</code></p>
   </li>
+  <li>Start the database with Knex migrations:
+    <p><code>yarn knex:migrate</code></p>
+    <p><code>yarn knex:seed</code></p>
+  </li>
   <li>Start the development server:
     <p><code>yarn dev</code></p>
   </li>
@@ -86,8 +91,9 @@
 </ol></br>
 
 
-<h3>Running the React app</h3>
+<h3>⚛️ Running the React app</h3>
 <ol>
+  <li>If you have already cloned the repository, proceed, otherwise, see step 1 in 'running the backend server'</li>
   <li>Enter the project folder:
     <p><code>cd Ecoleta</code></p>
   </li>
@@ -97,28 +103,29 @@
   <li>Install all dependencies:
     <p><code>yarn install</code> or <code>yarn</code></p>
   </li>
-  <li>Start the development server:
+  <li>Start the web development server:
     <p><code>yarn start</code></p>
   </li>
   <li>After these steps, the server should start at the <strong>3000</strong> port, open the browser and access <a href="http://localhost:3000">http://localhost:3000</a>.</li>
 </ol></br>
 
 
-<h3>Running the Mobile app</h3>
+<h3>📱 Running the Mobile app</h3>
 <ol>
+  <li>With the Expo installed, according to the documentation, follow</li>
   <li>Enter the project folder:
     <p><code>cd Ecoleta</code></p>
   </li>
-  <li>Enter the web folder:
-    <p><code>cd web</code></p>
+  <li>Enter the mobile folder:
+    <p><code>cd mobile</code></p>
   </li>
   <li>Install all dependencies:
     <p><code>yarn install</code> or <code>yarn</code></p>
   </li>
-  <li>Start the development server:
+  <li>Start the mobile development server:
     <p><code>yarn start</code></p>
   </li>
-  <li>After these steps, the server should start at the <strong>3000</strong> port, open the browser and access <a href="http://localhost:3000">http://localhost:3000</a>.</li>
+  <li>After these steps, the mobile application must start on your emulator or on your device, according to your choice.</li>
 </ol></br>
 
 
@@ -126,14 +133,36 @@
 <h2>🛡️ Technologies</h2>
 <p>The following tools were used in the development of the project: </p>
 
+<h3>Backend</h3>
 <ul>
-  <li><a href="https://nextjs.org">Next.js</a></li>
+  <li><a href="http://knexjs.org">Knex</a></li>
+  <li><a href="https://expressjs.com/pt-br/">Express</a></li>
+  <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
+  <li><a href="https://www.npmjs.com/package/multer">Multer</a></li>
+  <li><a href="https://www.sqlite.org/index.html">SQLite</a></li>
+  <li><a href="https://www.npmjs.com/package/cors">Cors</a></li>
+  <li><a href="https://www.npmjs.com/package/ts-node-dev">ts-node-dev</a></li>
+</ul></br>
+
+<h3>Web</h3>
+<ul>
+  <li><a href="https://leafletjs.com">Leaflet</a></li>
   <li><a href="https://pt-br.reactjs.org">React</a></li>
   <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
-  <li><a href="https://styled-components.com">Styled Components</a></li>
-  <li><a href="https://date-fns.org">date-fns</a></li>
-  <li><a href="https://www.npmjs.com/package/rc-slider">rc-slider</a></li>
+  <li><a href="https://github.com/axios/axios">Axios</a></li>
+  <li><a href="https://react-leaflet.js.org">React-leaflet</a></li>
   <li><a href="https://react-icons.github.io/react-icons/">React Icons</a></li>
+</ul></br>
+
+<h3>Mobile</h3>
+<ul>
+  <li><a href="https://expo.io">Expo</a></li>
+  <li><a href="https://reactnative.dev">React Native</a></li>
+  <li><a href="https://www.typescriptlang.org">TypeScript</a></li>
+  <li><a href="https://reactnavigation.org">React Navigation</a></li>
+  <li><a href="https://github.com/react-native-maps/react-native-maps">React Native Maps</a></li>
+  <li><a href="https://github.com/react-native-svg/react-native-svg">React Native Svg</a></li>
+  <li><a href="https://github.com/software-mansion/react-native-reanimated">React Native Reanimated</a></li>
 </ul></br>
 
 
