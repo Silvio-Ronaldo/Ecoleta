@@ -29,7 +29,12 @@
 <ul>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#-status">Status</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">Demonstration</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-running-locally">Running Locally</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-running-locally">Running Locally</a></li></br>
+  <ul>
+    <li><a href="">Running Backend Server</a></li>  
+    <li><a href="">Running React App</a></li>
+    <li><a href="">Running Mobile App</a></li></br>
+  </ul>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Technologies</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Author</a></li>
   <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-license">License</a></li>
@@ -43,14 +48,14 @@
 
 
 <h2>🖥️ Demonstration</h2>
-<h3>Layout</h3>
+<h3>Web Layout</h3>
   <p align="center">
-    <img src="./assets/layout.gif" alt="Ecoleta Layout" />
+    <img src="./assets/home.gif" alt="Ecoleta Layout" />
   </p></br>
   
-<h3>Usage</h3>
+<h3>Web Usage</h3>
   <p align="center">
-    <img src="./assets/cadastro.gif" alt="Ecoleta Register" />
+    <img src="./assets/usage.gif" alt="Ecoleta Usage" />
   </p></br>
 
 <h3>Mobile</h3>
