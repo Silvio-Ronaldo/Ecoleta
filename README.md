@@ -27,17 +27,17 @@
   📋 Table of contents
 </h2>
 <ul>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#-status">Status</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-demonstration">Demonstration</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-running-locally">Running Locally</a></li></br>
+  <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#-status">Status</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#%EF%B8%8F-demonstration">Demonstration</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#%EF%B8%8F-running-locally">Running Locally</a></li></br>
   <ul>
-    <li><a href="">Running Backend Server</a></li>  
-    <li><a href="">Running React App</a></li>
-    <li><a href="">Running Mobile App</a></li></br>
+    <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#-running-the-backend-server">Running Backend Server</a></li>  
+    <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#%EF%B8%8F-running-the-react-app">Running React App</a></li>
+    <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#-running-the-mobile-app">Running Mobile App</a></li></br>
   </ul>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Technologies</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-technologies">Author</a></li>
-  <li><a href="https://github.com/Silvio-Ronaldo/podcastr#%EF%B8%8F-license">License</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#%EF%B8%8F-technologies">Technologies</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#-author">Author</a></li>
+  <li><a href="https://github.com/Silvio-Ronaldo/Ecoleta#%EF%B8%8F-license">License</a></li>
 </ul></br>
 
 
