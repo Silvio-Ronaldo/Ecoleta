@@ -43,9 +43,14 @@
 
 
 <h2>🖥️ Demonstration</h2>
-<h3>Web</h3>
+<h3>Layout</h3>
   <p align="center">
-    <img src="" alt="Ecoleta Web" />
+    <img src="./assets/layout.gif" alt="Ecoleta Layout" />
+  </p></br>
+  
+<h3>Usage</h3>
+  <p align="center">
+    <img src="./assets/cadastro.gif" alt="Ecoleta Register" />
   </p></br>
 
 <h3>Mobile</h3>
